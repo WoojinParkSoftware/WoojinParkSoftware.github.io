@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Woojin Park – Resume</title>
+<!-- Source for assets/pdf/WoojinParkResume.pdf. Rebuild with: node resume/build.mjs -->
+<style>
+  @page { size: Letter; margin: 0.4in 0.55in; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.25;
+    color: #1a1a1a;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 8pt; }
+  h1 { font-size: 19pt; letter-spacing: 0.5pt; font-weight: 700; }
+  .headline { font-size: 10.5pt; color: #1f4e79; font-weight: 600; margin-top: 2pt; }
+  .contact { font-size: 8.5pt; white-space: nowrap; color: #444; margin-top: 3pt; }
+  .contact span + span::before { content: "|"; margin: 0 4pt; color: #999; }
+
+  h2 {
+    font-size: 10.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: #1f4e79;
+    border-bottom: 1px solid #1f4e79;
+    padding-bottom: 1.5pt;
+    margin: 7pt 0 3pt;
+  }
+
+  .summary { text-align: justify; }
+
+  .entry { margin-bottom: 4pt; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; }
+  .org { font-weight: 700; }
+  .loc, .date { color: #444; font-size: 9.5pt; white-space: nowrap; }
+  .role { font-style: italic; }
+  ul { margin: 1.5pt 0 0 14pt; }
+  li { margin-bottom: 0.5pt; }
+
+  .skills { display: grid; grid-template-columns: max-content 1fr; column-gap: 10pt; row-gap: 2pt; }
+  .skills dt { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>WOOJIN PARK</h1>
+  <div class="headline">Production Planning &amp; Operations</div>
+  <div class="contact">
+    <span>San Jose, CA</span>
+    <span><a href="mailto:woojinpark.software@gmail.com">woojinpark.software@gmail.com</a></span>
+    <span>(831) 737-3172</span>
+    <span><a href="https://www.linkedin.com/in/woojinparksoftware/">linkedin.com/in/woojinparksoftware</a></span>
+    <span><a href="https://woojinparksoftware.github.io">woojinparksoftware.github.io</a></span>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p class="summary">
+  Operations professional in food manufacturing who builds weekly and monthly production schedules, manages work orders,
+  and keeps R&amp;D, Sales, Marketing, Supply Chain, and IT aligned on production goals. Turns plant performance data and
+  ERP reporting into actionable efficiency improvements. Background in Management Information Systems, project
+  management, and QA; bilingual in English and Korean.
+</p>
+
+<h2>Experience</h2>
+
+<div class="entry">
+  <div class="row"><span class="org">Pulmuone</span><span class="loc">Gilroy, CA</span></div>
+  <div class="row"><span class="role">Plant Operations Assistant Manager</span><span class="date">Sep. 2024 – Present</span></div>
+  <ul>
+    <li>Plan weekly and monthly production schedules and release work orders to keep food production runs on target.</li>
+    <li>Serve as the key liaison between R&amp;D, Marketing, Sales, Supply Chain (SCM), and IT, keeping cross-functional teams aligned with production goals and customer demand.</li>
+    <li>Analyze plant performance data and own daily, weekly, and monthly operations reporting, turning results into actionable insights that improve plant efficiency.</li>
+    <li>Support ERP system integration to streamline production planning and reporting workflows.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="row"><span class="org">Samsung Electronics</span><span class="loc">San Diego, CA</span></div>
+  <div class="row"><span class="role">Network QA Engineer, Mobile</span><span class="date">Jun. 2024 – Aug. 2024</span></div>
+  <ul>
+    <li>Executed 5G network test plans (Sub6 and mmWave) for Verizon, AT&amp;T, and T-Mobile devices, ensuring quality standards were met before release.</li>
+    <li>Translated technical test reports into actionable insights for engineers, network analysts, and management to improve device performance.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="row"><span class="org">TVN CJ ENM</span><span class="loc">Monterey County, CA | Seoul, South Korea</span></div>
+  <div class="row"><span class="role">IT Communication Coordinator, <em>Unexpected Business 3</em></span><span class="date">Jun. 2023 – Aug. 2023</span></div>
+  <ul>
+    <li>Coordinated IT, Audio, and Production teams on location, translating technical requirements into actionable plans for audio-visual setup and IT infrastructure.</li>
+    <li>Provided Korean/English translation for an international production crew, improving communication efficiency and reducing operational delays.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="row"><span class="org">Republic of Korea Army – KATUSA, U.S. Army 2nd Infantry Division</span><span class="loc">South Korea</span></div>
+  <div class="row"><span class="role">Military Intelligence Systems Maintainer / Integrator</span><span class="date">Sep. 2020</span></div>
+  <ul>
+    <li>Maintained and integrated military intelligence systems as a Korean augmentee serving within a U.S. Army unit.</li>
+  </ul>
+</div>
+
+<h2>Projects</h2>
+
+<div class="entry">
+  <div class="row"><span class="org">Sound of Slash <span style="font-weight:400">– Game Development</span></span><span class="loc">Remote</span></div>
+  <div class="row"><span class="role">Project Manager</span><span class="date">Jan. 2024 – Aug. 2024</span></div>
+  <ul>
+    <li>Planned and tracked 100+ tasks in Jira across Animation, Engineering, UI/UX, and Sound teams in Korea and the U.S., improving project efficiency by 20%.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="row"><span class="org">No Smash <span style="font-weight:400">– AI-Integrated Parking Advice Web App</span></span><span class="loc">San Jose, CA</span></div>
+  <div class="row"><span class="role">Project Manager &amp; Software Developer</span><span class="date">Jan. 2024 – May 2024</span></div>
+  <ul>
+    <li>Led a team of four developers with a regular meeting cadence to deliver a data-driven app processing 140,000+ SFPD crime records with Python and Streamlit.</li>
+    <li>Ranked in the top 10 of 500+ projects at the AI for Social Good event.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="entry">
+  <div class="row"><span class="org">San José State University</span><span class="loc">San José, CA</span></div>
+  <div class="row"><span class="role">B.S., Management Information Systems – School of Information Systems and Technology</span><span class="date">May 2024</span></div>
+</div>
+
+<h2>Skills</h2>
+<dl class="skills">
+  <dt>Planning &amp; Operations</dt>
+  <dd>Production Planning &amp; Scheduling, Work Order Management, ERP Systems, KPI &amp; Performance Reporting, Data Analysis, Cross-functional Coordination, Agile/Scrum</dd>
+  <dt>Tools</dt>
+  <dd>Microsoft 365 (Excel, PowerPoint), SQL/MySQL, Python, Jira, Salesforce, Azure, Slack</dd>
+  <dt>Languages</dt>
+  <dd>English, Korean (bilingual)</dd>
+</dl>
+
+</body>
+</html>
